@@ -1,4 +1,4 @@
-# QR_Maker
+# QR-Generator
 A simple QR Code Generator web application that allows users to create QR codes from any URL or text. Whether you want to share your social media profiles, portfolio, or any link, just paste your link and generate a custom QR code instantly. This project is built using HTML, CSS, and JavaScript. The app is live and can be accessed through the following link:<br>
 <a href="https://codifyqr.netlify.app">View Project Live</a>
 
