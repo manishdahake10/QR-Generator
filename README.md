@@ -1,57 +1,68 @@
 # QR-Generator
-A simple QR Code Generator web application that allows users to create QR codes from any URL or text. Whether you want to share your social media profiles, portfolio, or any link, just paste your link and generate a custom QR code instantly. This project is built using HTML, CSS, and JavaScript. The app is live and can be accessed through the following link:<br>
-<a href="https://codifyqr.netlify.app">View Project Live</a>
 
-<h2>View Project Live</h2>
+## Overview
+This is a **QR Code Generator** application developed using **JavaScript**, **HTML**, and **CSS**. It allows users to generate QR codes from any text or URL. The application provides a simple, responsive, and user-friendly interface to create QR codes, customize their size, and download them as PNG images.
 
-<h2>Features</h2>
-Generate QR Code from URL or Text: Easily generate a QR code by simply pasting your social media, portfolio, or any other link.<br>
-Responsive Design: The layout adjusts based on screen size, making it mobile-friendly.<br>
-User-Friendly Interface: A clean and simple design that makes the process smooth for all users.<br>
+## Features
+- Generate QR codes from any text or URL.
+- Real-time preview of QR codes as users type.
+- Customizable QR code size (small, medium, large).
+- Download generated QR codes as PNG images.
+- Simple and responsive design.
 
-<h2>Tech Stack</h2>
-HTML: The structure of the web application.<br>
-CSS: Used to style the page and make it visually appealing.<br>
-JavaScript: Handles the logic of generating QR codes from user input.<br>
-Netlify: Hosting platform to deploy and share the project.<br>
+## Technologies Used
+- **JavaScript**: For generating and rendering QR codes.
+- **HTML**: For structuring the webpage.
+- **CSS**: For styling the webpage and making it responsive.
+- **QR Code Library**: Uses a third-party library (e.g., `qrcode.js`) to generate QR codes.
 
-<h2>Installation</h2>
-To run this project locally on your machine, follow these steps:<br>
+## Requirements
+- A modern web browser (Google Chrome, Mozilla Firefox, Safari, etc.).
 
-1.Clone the repository:<br>
-git clone https://github.com/manishdahake10/QR_Maker.git<br>
+## Installation
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/manishdahake10/QR-Generator.git
+    ```
 
-2.Navigate to the project directory:<br>
-cd QR_Maker<br>
+2. Navigate to the project directory:
+    ```bash
+    cd QR-Generator
+    ```
 
-3.Open the project in your browser:<br>
-Open index.html in your favorite web browser.<br>
+3. Open the `index.html` file in your preferred web browser to use the application.
 
-<h2>How to Use</h2>
-1. Open the live version of the project at QR Code Generator.<br>
-2. Paste the link to your social media profile, portfolio, or any URL in the input field.<br>
-3. Click "Generate QR Code".<br>
-4. The generated QR code will be displayed. You can scan it with any QR code reader to access the link.<br>
+## Usage
+1. Open the `index.html` file in your browser to launch the application.
+2. Enter any text or URL in the input field.
+3. Select the QR code size (small, medium, or large).
+4. Click the **Generate QR Code** button to create the QR code.
 
-<h2>Project Structure:</h2>
-QR_Maker/<br>
-│<br>
-├── index.html          # Main HTML file<br>
-├── style.css           # Styles for the QR code generator<br>
-├── script.js           # JavaScript for generating the QR code<br>
-└── README.md           # This file<br>
+### Output
+If you enter the URL `https://codifyqr.netlify.app/` in the input field, the app will generate a QR code that directs the user to the URL when scanned.
 
-# #Output
-Click On Img And Get real Experience of this project:<br>
-<a href="https://codifyqr.netlify.app">![Screenshot_QR](https://github.com/user-attachments/assets/c073439a-59f7-4a79-89b8-dab940ec1252)</a>
+### Click on the image and get the real experience
+<a href="https://codifyqr.netlify.app/">![Screenshot_QR](https://github.com/user-attachments/assets/86871e58-74d0-443f-973f-0a6d54de9369)</a>
 
+### Real-Time Preview
+The QR code will be generated in real-time as you type or modify the input field.
 
-<h2>Contributing</h2>
-Feel free to fork this project and submit pull requests if you want to contribute improvements. If you have any suggestions or find bugs, please open an issue.
+## Code Structure
+The project consists of the following files:
+- `index.html`: The main HTML file containing the structure of the QR code generator.
+- `style.css`: The CSS file for styling the user interface and making it responsive.
+- `script.js`: The JavaScript file that handles the QR code generation, real-time preview, and download functionality.
+- `README.md`: This documentation file explaining the project.
 
-Steps to contribute:
-1. Fork the repository.<br>
-2. Create a new branch for your changes.<br>
-3. Commit your changes.<br>
-4. Push the changes to your forked repository.<br>
-5. Submit a pull request.<br>
+## Contribution
+Feel free to fork this repository and contribute by opening issues or submitting pull requests. Contributions are welcome in the following areas:
+- Suggesting new features or improvements.
+- Fixing bugs or improving existing code.
+- Enhancing the user interface.
+
+## Author
+**Manish Dahake**  
+GitHub: [manishdahake10](https://github.com/manishdahake10)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
