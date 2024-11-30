@@ -1,7 +1,7 @@
 # QR-Generator
 
 ## Overview
-This is a **QR Code Generator** application developed using **JavaScript**, **HTML**, and **CSS**. It allows users to generate QR codes from any text or URL. The application provides a simple, responsive, and user-friendly interface to create QR codes, customize their size, and download them as PNG images.
+This is a **QR Code Generator** application developed using **JavaScript**, **HTML**, and **CSS**. It allows users to generate QR codes from any text or URL. The application provides a simple, responsive, and user-friendly interface to create QR codes.
 
 ## Features
 - Generate QR codes from any text or URL.
